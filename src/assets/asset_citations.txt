@@ -1,1 +1,3 @@
 island_home_img.jpg: https://images.goway.com/production/styles/hero_s1_2xl/s3/hero/iStock-861553374.jpg?h=86de67ce&itok=l1WaUpcV
+island_entertainment_img.jpg: https://hawaiiluaucompany.com/wp-content/uploads/2021/08/Hawaii-Luau-Company-firedancewow.jpg
+island_lodging_img.jpg: https://www.luxurylink.com/images/sho_58236b5d/2578861_510-630/image-2578861_510.jpg?filtered=1

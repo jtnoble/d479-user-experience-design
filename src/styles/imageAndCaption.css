@@ -1,0 +1,14 @@
+.captioned-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-caption-container:nth-child(even) {
+    background-color: aliceblue;
+}
+
+.img-caption-container:nth-child(odd) {
+    background-color: rgb(240, 255, 246);
+}
