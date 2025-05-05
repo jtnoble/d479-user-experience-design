@@ -1,3 +1,7 @@
 island_home_img.jpg: https://images.goway.com/production/styles/hero_s1_2xl/s3/hero/iStock-861553374.jpg?h=86de67ce&itok=l1WaUpcV
 island_entertainment_img.jpg: https://hawaiiluaucompany.com/wp-content/uploads/2021/08/Hawaii-Luau-Company-firedancewow.jpg
 island_lodging_img.jpg: https://www.luxurylink.com/images/sho_58236b5d/2578861_510-630/image-2578861_510.jpg?filtered=1
+island_transportation_img.jpg: https://cdn11.bigcommerce.com/s-xjhuewfeqf/images/stencil/1280x1280/products/12460/58882/Pacific-star-divecenter-scuba-charters__97190.1737527986.jpg?c=2
+island_grocery_img.jpg: https://www.seattleglobalist.com/wp-content/uploads/2016/02/8-022316-IslandPacific-Globalist-TAMAYO-0002-e1456366850905.jpg
+island_restaurant_img.jpg: https://haymanisland.intercontinental.com/wp-content/uploads/2020/11/event-img7.jpg
+island_sightseeing_img.jpg: https://cazloyd.com/wp-content/uploads/2023/08/Tahiti-Pacific-Islands.jpg
