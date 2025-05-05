@@ -55,6 +55,10 @@ function Home() {
                     url={BASE_URL + "sightseeing"}
                 ></ImageAndCaption>
             </div>  
+            <div className="p-5 text-center" data-aos='fade-up'>
+                <h3>Interested?</h3>
+                <span>Something about providing the upmost care for the island and selling the trip.</span>
+            </div>
         </div>
     )
 }

@@ -14,7 +14,7 @@ interface ImageAndCaptionProps {
 function ImageAndCaption(props: ImageAndCaptionProps) {
     const { leftAlign, imgSrc, content, url } = props;
     return (
-        <div className="p-3 img-caption-container">
+        <div className="p-3 img-caption-container" data-aos='fade-up'>
             <div className="row align-items-center">
                 {leftAlign ? (
                     <>

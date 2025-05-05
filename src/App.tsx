@@ -5,7 +5,23 @@ import { Routes, Route } from 'react-router-dom';
 import Entertainment from './pages/Entertainment';
 import Footer from './components/Footer';
 
+// AOS import for nice animations
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from 'react';
+
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 800,
+      delay: 100,
+      easing: 'ease-in-out',
+      once: true
+    });
+  }, []);
 
   return (
     <>
