@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BASE_URL } from '../config/constants';
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
   return (
@@ -14,12 +15,12 @@ function NavigationBar() {
           <Nav className="ms-auto">
             <Nav.Link href={BASE_URL} className="border-end px-3">Home</Nav.Link>
             <NavDropdown title="Visiting" id="basic-nav-dropdown" className="border-end px-3">
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Entertainment</NavDropdown.Item>
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Lodging</NavDropdown.Item>
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Transportation</NavDropdown.Item>
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Grocery</NavDropdown.Item>
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Restaurants</NavDropdown.Item>
-              <NavDropdown.Item href={BASE_URL + "entertainment"}>Sightseeing</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Entertainment</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Lodging</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Transportation</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Grocery</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Restaurants</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/entertainment">Sightseeing</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#link" className="border-end px-3">About</Nav.Link>
             <Nav.Link href="#faq" className="px-3">FAQ</Nav.Link>
