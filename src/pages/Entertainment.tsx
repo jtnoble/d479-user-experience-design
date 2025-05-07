@@ -1,5 +1,4 @@
 import "../styles/home.css";
-import { BASE_URL } from "../config/constants";
 
 function Entertainment() {
     return (

@@ -1,6 +1,5 @@
 import "../styles/home.css";
 import ImageAndCaption from "../components/ImageAndCaption";
-import Footer from "../components/Footer";
 import { BASE_URL } from "../config/constants";
 
 function Home() {

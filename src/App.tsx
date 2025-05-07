@@ -15,12 +15,15 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      offset: 800,
-      delay: 100,
-      easing: 'ease-in-out',
-      once: true
+      duration: 500,
+      offset: 20,
+      delay: 20,
+      easing: 'ease',
+      once: false
     });
+    setTimeout(() => {
+      AOS.refresh();
+    }, 200);
   }, []);
 
   return (
