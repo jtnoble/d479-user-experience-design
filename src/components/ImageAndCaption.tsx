@@ -39,7 +39,8 @@ function ImageAndCaption(props: ImageAndCaptionProps) {
                         <div className="col vw-50" style={{height: "50vh"}}>
                             <div className="text-start">
                             <h3>{content.header}</h3>
-                            <span>{content.content}</span>
+                            <hr className="my-2" />
+                            <p className="lead lh-base mt-3 mb-4">{content.content}</p>
                             <br />
                             <Link to={url}>
                                 <button 
@@ -56,7 +57,8 @@ function ImageAndCaption(props: ImageAndCaptionProps) {
                         <div className="col vw-50" style={{height: "50vh"}}>
                             <div className="text-end">
                             <h3>{content.header}</h3>
-                            <span>{content.content}</span>
+                            <hr className="my-2" />
+                            <p className="lead lh-base mt-3 mb-4">{content.content}</p>
                             <br />
                             <Link to={url}>
                             <button

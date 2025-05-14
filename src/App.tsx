@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
 import NavigationBar from './components/NavigationBar';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Entertainment from './pages/Entertainment';
 import Footer from './components/Footer';
 import "./App.css";
@@ -21,6 +21,7 @@ import Restaurants from './pages/Restaurants';
 import Sightseeing from './pages/Sightseeing';
 
 function App() {
+  const location = useLocation();
 
   useEffect(() => {
     AOS.init({
@@ -39,7 +40,7 @@ function App() {
     <>
       <NavigationBar></NavigationBar>
       <AnimatePresence mode='wait'>
-        <Routes>
+        <Routes location={location} key={location.pathname}>
           <Route path='/' element={<Home />}></Route>
           <Route path='/entertainment' element={<Entertainment />}></Route>
           <Route path='/lodging' element={<Lodging />}></Route>
