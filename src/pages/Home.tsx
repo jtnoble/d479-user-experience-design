@@ -8,7 +8,7 @@ function Home() {
             <div className="hero-image">
                 <img src={BASE_URL + "/images/island_home_img.jpg"} alt="Image of island" />
                 <div className="hero-text">
-                    <h1>Taniti Islands</h1>
+                    <h1>Taniti Island</h1>
                 </div>
             </div>
             <div className="d-flex flex-column pt-5"> 
@@ -59,9 +59,9 @@ function Home() {
                     url={"sightseeing"}
                 ></ImageAndCaption>
             </div>  
-            <div className="p-5 text-center" data-aos='fade-up'>
+            <div className="p-5 text-center" data-aos='fade-in'>
                 <h3>Interested?</h3>
-                <span>Contact us via email at <a href="mailto:taniti-interest@taniti.com">taniti-interest@taniti.com</a></span>
+                <span>Fill out the contact form on our <a href={BASE_URL + "#/about"}>about page</a>. </span>
             </div>
         </div>
     )

@@ -5,9 +5,9 @@ import { useEffect } from "react";
 
 function Sightseeing() {
     const carouselItems = [
-        { image: "/images/island_sightseeing_img.jpg", heading: "Taniti City" },
-        { image: "/images/island_sightseeing_img.jpg", heading: "Volcanos" },
-        { image: "/images/island_sightseeing_img.jpg", heading: "Rainforest" },
+        { image: "/images/1280x720.jpg", heading: "Taniti City" },
+        { image: "/images/1280x720.jpg", heading: "Volcanos" },
+        { image: "/images/1280x720.jpg", heading: "Rainforest" },
     ]
 
     useEffect(() => {

@@ -19,6 +19,8 @@ import Transportation from './pages/Transportation';
 import Grocery from './pages/Grocery';
 import Restaurants from './pages/Restaurants';
 import Sightseeing from './pages/Sightseeing';
+import FAQ from './pages/FAQ';
+import About from './pages/About';
 
 function App() {
   const location = useLocation();
@@ -38,6 +40,7 @@ function App() {
 
   return (
     <>
+      <div style={{minHeight: "91vh"}}>
       <NavigationBar></NavigationBar>
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
@@ -48,8 +51,11 @@ function App() {
           <Route path='/grocery' element={<Grocery />}></Route>
           <Route path='/restaurants' element={<Restaurants />}></Route>
           <Route path='/sightseeing' element={<Sightseeing />}></Route>
+          <Route path='/faq' element={<FAQ />}></Route>
+          <Route path='/about' element={<About />}></Route>
         </Routes>
       </AnimatePresence>
+      </div>
       <Footer></Footer>
     </>
   )

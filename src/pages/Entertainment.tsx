@@ -5,17 +5,17 @@ import { useEffect } from "react";
 
 function Entertainment() {
     const carouselItems = [
-        { image: "/images/island_entertainment_img.jpg", heading: "Local History Museum" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Chartered Fishing Tours" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Zip-lining" },
-        { image: "/images/island_entertainment_img.jpg", heading: "The Microbrewery" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Dancing" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Movies" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Helicopter Rides" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Arcade" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Art Galleries" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Bowling" },
-        { image: "/images/island_entertainment_img.jpg", heading: "Nine-hole Golf (TBD)" },
+        { image: "/images/1280x720.jpg", heading: "Local History Museum" },
+        { image: "/images/1280x720.jpg", heading: "Chartered Fishing Tours" },
+        { image: "/images/1280x720.jpg", heading: "Zip-lining" },
+        { image: "/images/1280x720.jpg", heading: "The Microbrewery" },
+        { image: "/images/1280x720.jpg", heading: "Dancing" },
+        { image: "/images/1280x720.jpg", heading: "Movies" },
+        { image: "/images/1280x720.jpg", heading: "Helicopter Rides" },
+        { image: "/images/1280x720.jpg", heading: "Arcade" },
+        { image: "/images/1280x720.jpg", heading: "Art Galleries" },
+        { image: "/images/1280x720.jpg", heading: "Bowling" },
+        { image: "/images/1280x720.jpg", heading: "Nine-hole Golf (TBD)" },
     ]
     
     useEffect(() => {

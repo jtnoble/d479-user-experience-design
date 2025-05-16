@@ -7,52 +7,52 @@ const locationData = [
   {
     name: "Ocean Breeze Grill",
     description: "Fresh local fish and island-style rice dishes.",
-    imgSrc: "/images/island_restaurant_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Taniti Tacos",
     description: "Casual spot serving American-Mexican fusion.",
-    imgSrc: "/images/restaurant2.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Sunset Catch",
     description: "Local seafood specialties with ocean views.",
-    imgSrc: "/images/restaurant3.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Island Diner",
     description: "Classic American-style breakfasts and burgers.",
-    imgSrc: "/images/restaurant4.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "PanAsia Delight",
     description: "Pan-Asian cuisine including Thai, Japanese, and Chinese dishes.",
-    imgSrc: "/images/restaurant5.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Lagoon Lounge",
     description: "Tropical drinks and fresh grilled fish plates.",
-    imgSrc: "/images/restaurant6.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Grill & Chill",
     description: "All-American BBQ and comfort food.",
-    imgSrc: "/images/restaurant7.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "The Rice Bowl",
     description: "Traditional island fare centered around rice and vegetables.",
-    imgSrc: "/images/restaurant8.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Bay Bistro",
     description: "Elegant seafood and local ingredients.",
-    imgSrc: "/images/restaurant9.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Wok This Way",
     description: "Quick-service Asian noodle and stir fry dishes.",
-    imgSrc: "/images/restaurant10.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
 ];
 

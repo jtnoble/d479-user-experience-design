@@ -5,11 +5,11 @@ import { useEffect } from "react";
 
 function Transportation() {
     const carouselItems = [
-        { image: "/images/island_transportation_img.jpg", heading: "Public Buses: 5am to 11pm, every day" },
-        { image: "/images/island_transportation_img.jpg", heading: "Private Buses: By Request" },
-        { image: "/images/island_transportation_img.jpg", heading: "Taxis" },
-        { image: "/images/island_transportation_img.jpg", heading: "Rental Cars" },
-        { image: "/images/island_transportation_img.jpg", heading: "Bikes & Helmets" },
+        { image: "/images/1280x720.jpg", heading: "Public Buses: 5am to 11pm, every day" },
+        { image: "/images/1280x720.jpg", heading: "Private Buses: By Request" },
+        { image: "/images/1280x720.jpg", heading: "Taxis" },
+        { image: "/images/1280x720.jpg", heading: "Rental Cars" },
+        { image: "/images/1280x720.jpg", heading: "Bikes & Helmets" },
     ]
 
     useEffect(() => {

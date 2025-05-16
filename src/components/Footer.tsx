@@ -3,87 +3,32 @@ import { BASE_URL } from "../config/constants";
 
 function Footer() {
     return (
-        <footer className="text-center text-lg-start bg-body-tertiary text-muted">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <div className="me-5 d-none d-lg-block">
-            <span></span>
-            </div>
-            <div>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-twitter"></i>
-            </a>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-google"></i>
-            </a>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-instagram"></i>
-            </a>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="" className="me-4 text-reset">
-                <i className="fab fa-github"></i>
-            </a>
-            </div>
-        </section>
-        <section className="">
-            <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
-
-                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 className="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
-                    <p>
-                        <a href="#!" className="text-reset">Angular</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">React</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">Vue</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">Laravel</a>
-                    </p>
+        <footer className="bg-body-tertiary text-muted mt-auto py-4">
+            <div className="container d-flex justify-content-between align-items-center">
+                <div>
+                    © 2025 Copyright: 
+                    <a className="text-reset fw-bold ms-1" href={BASE_URL}>
+                        Taniti Islands
+                    </a>
                 </div>
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 className="text-uppercase fw-bold mb-4">
-                        Useful links
-                    </h6>
-                    <p>
-                        <a href="#!" className="text-reset">Pricing</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">Settings</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">Orders</a>
-                    </p>
-                    <p>
-                        <a href="#!" className="text-reset">Help</a>
-                    </p>
-                </div>
-                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                    <p><i className="text-reset"></i>123 ABC Ave, Taniti</p>
-                    <p>
-                        <i className="text-reset"></i>
-                        taniti-interest@taniti.com
-                    </p>
-                    <p><i className="text-reset"></i>+ 01 234 567 88</p>
-                    <p><i className="text-reset"></i>+ 01 234 567 89</p>
+                <div>
+                    <a href="/#/about" className="text-reset me-4">
+                        About
+                    </a>
+                    <a href="/#/faq" className="text-reset me-4">
+                        FAQ
+                    </a>
+                    <a href="/#/about" className="text-reset me-4">
+                        Contact
+                    </a>
+                    <a href="" className="text-reset me-4">
+                        Privacy
+                    </a>
+                    <a href="" className="text-reset">
+                        Terms
+                    </a>
                 </div>
             </div>
-            </div>
-        </section>
-        <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05);"}}>
-            © 2025 Copyright:&nbsp;
-            <a className="text-reset fw-bold" href={BASE_URL}>Taniti Islands</a>
-        </div>
         </footer>
     )
 }

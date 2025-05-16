@@ -12,22 +12,22 @@ const locationData = [
   {
     name: "Taniti Supermarket - #2",
     description: "One of Taniti's finest supermarkets.",
-    imgSrc: "/images/island_grocery_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Taniti Grocery - #1",
     description: "Smaller local grocery store.",
-    imgSrc: "/images/island_grocery_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Taniti Grocery - #2",
     description: "Smaller local grocery store.",
-    imgSrc: "/images/island_grocery_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Taniti Convenience",
     description: "Basic convenience needs.",
-    imgSrc: "/images/island_grocery_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
 ];
 

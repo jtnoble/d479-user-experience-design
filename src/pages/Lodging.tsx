@@ -7,27 +7,27 @@ const locationData = [
   {
     name: "Mariott",
     description: "4-star resort",
-    imgSrc: "/images/island_lodging_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Hotel - 1",
     description: "Small family-owned hotel",
-    imgSrc: "/images/island_lodging_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "Hotel - 2",
     description: "Small family-owned hotel",
-    imgSrc: "/images/island_lodging_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "B&B - 1",
     description: "Small family-owned Bed & Breakfast",
-    imgSrc: "/images/island_lodging_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
   {
     name: "B&B - 2",
     description: "Small family-owned Bed & Breakfast",
-    imgSrc: "/images/island_grocery_img.jpg",
+    imgSrc: "/images/400x240.jpg",
   },
 ];
 

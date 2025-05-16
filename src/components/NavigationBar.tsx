@@ -22,8 +22,8 @@ function NavigationBar() {
               <NavDropdown.Item as={Link} to="/restaurants">Restaurants</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/sightseeing">Sightseeing</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link" className="border-end px-3">About</Nav.Link>
-            <Nav.Link href="#faq" className="px-3">FAQ</Nav.Link>
+            <Nav.Link as={Link} to="/about" className="border-end px-3">About</Nav.Link>
+            <Nav.Link as={Link} to="/faq" className="px-3">FAQ</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
