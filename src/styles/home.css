@@ -29,6 +29,29 @@
     margin: 0;
 }
 
+.hero-subtext {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.hero-subtext.visible {
+    opacity: 1;
+}
+
+.hero-subtext.hidden { 
+    opacity: 0;;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }

@@ -1,14 +1,45 @@
 import "../styles/home.css";
 import ImageAndCaption from "../components/ImageAndCaption";
 import { BASE_URL } from "../config/constants";
+import { useEffect, useState } from "react";
 
 function Home() {
+
+    const [showScrollReminder, setShowScrollReminder] = useState(false);
+    const [hasScrolled, setHasScrolled] = useState(false);
+
+    useEffect(() => {
+        const reminderTimer = setTimeout(() => {
+            if (!hasScrolled) {
+                setShowScrollReminder(true);
+            }
+        }, 3000);
+
+        const handleScroll = () => {
+            if (!hasScrolled) {
+                clearTimeout(reminderTimer);
+                setHasScrolled(true);
+                setShowScrollReminder(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            clearTimeout(reminderTimer);
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div>
             <div className="hero-image">
                 <img src={BASE_URL + "/images/island_home_img.jpg"} alt="Image of island" />
                 <div className="hero-text">
                     <h1>Taniti Island</h1>
+                </div>
+                <div className={`hero-subtext ${showScrollReminder ? 'visible' : 'hidden'}`}>
+                    <h3>Scroll for more content</h3>
                 </div>
             </div>
             <div className="d-flex flex-column pt-5"> 

@@ -8,7 +8,7 @@ function Footer() {
                 <div>
                     © 2025 Copyright: 
                     <a className="text-reset fw-bold ms-1" href={BASE_URL}>
-                        Taniti Islands
+                        Taniti Island
                     </a>
                 </div>
                 <div>
