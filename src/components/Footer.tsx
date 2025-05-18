@@ -12,19 +12,19 @@ function Footer() {
                     </a>
                 </div>
                 <div>
-                    <a href="/#/about" className="text-reset me-4">
+                    <a href={BASE_URL + "#/about"} className="text-reset me-4">
                         About
                     </a>
-                    <a href="/#/faq" className="text-reset me-4">
+                    <a href={BASE_URL + "#/faq"} className="text-reset me-4">
                         FAQ
                     </a>
-                    <a href="/#/about" className="text-reset me-4">
+                    <a href={BASE_URL + "#/about"} className="text-reset me-4">
                         Contact
                     </a>
-                    <a href="" className="text-reset me-4">
+                    <a href={BASE_URL} className="text-reset me-4">
                         Privacy
                     </a>
-                    <a href="" className="text-reset">
+                    <a href={BASE_URL} className="text-reset">
                         Terms
                     </a>
                 </div>
